@@ -1,0 +1,2 @@
+<!--pages/index/bilibili.wxml-->
+<web-view src="https://live.bilibili.com/2722293"></web-view>

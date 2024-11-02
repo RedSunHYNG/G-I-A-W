@@ -1,0 +1,11 @@
+<view>
+ <view class="box">
+  <button bindtap="changeImg">  <image src="{{ imgUrl }}" mode="aspectFit" /></button>
+  <button type="primary" size="mini" bindtap="upload_image">提交图片</button>
+</view>
+<view class="box">
+  <text>请输入你要改变的名字</text>
+  <input type='text' model:value="{{upname}}" bindinput="null"></input>
+  <button type="primary" size="mini" bindtap="upload_name">提交名字</button>
+ </view>
+</view>
