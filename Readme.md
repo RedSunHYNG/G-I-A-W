@@ -6,9 +6,13 @@
     需要数据库文件
 20241102作为GitHub开源补充:
 	百度网盘内:未处理
-	更改:miniprogram-1/pages/mode_map/mode_map.js  -> key ->地图的密钥
-	更改:Last_Server/config/mysql.js -> connection
-	更改: Last_Server/routes/login.js -> wx
+	
+ 	更改:miniprogram-1/pages/mode_map/mode_map.js  -> key ->地图的密钥
+	
+ 	更改:Last_Server/config/mysql.js -> connection
+	
+ 	更改: Last_Server/routes/login.js -> wx
+  
 我也不知道处理干净没有，但是就算没处理干净应该也不会有人来弄我这么一个小开发者吧？如果有我信息泄露，麻烦通知我！！这对于一个愿意开源自己项目的开发者很重要！
 
 部署使用，你需要填写微信小程序id和验证id。配置数据库格式，申请地图接口并填写。
