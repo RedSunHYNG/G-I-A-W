@@ -1,5 +1,7 @@
 // pages/map/map.js
-const key = 'EJOBZ-WTS3B-MMNUJ-NFL7F-KK7IH-AFBL5'
+//20241102 输入地图的密钥
+//20241102 此种设计方式并不合理，应交给后端来处理
+const key = '*****-*****-*****-*****-*****-*****'
 const QQMapWX = require('../../libs/qqmap-wx-jssdk.js')
 const qqmapsdk = new QQMapWX({
   key

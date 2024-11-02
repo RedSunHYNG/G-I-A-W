@@ -8,8 +8,8 @@ app.use(bodyParser.json())
 
 // 注意：小程序端的appid必须使用真实账号，如果使用测试账号，会出现login code错误
 const wx = {
-  appid: 'wx41d814ecf518fc9b',
-  secret: '4c6013a42615804e05142a23ed9bc60c'
+  appid: '',
+  secret: ''
 }
 
 var db = {
