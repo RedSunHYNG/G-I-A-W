@@ -1,6 +1,0 @@
-
-<view class="container">
-  <navigator open-type="navigate" url="../game/ys">
-    <button type="primary">开启原神之旅</button>
-  </navigator>
-</view>

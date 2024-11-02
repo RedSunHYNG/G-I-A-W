@@ -1,8 +1,0 @@
-{
-  "usingComponents": {},
-  "navigationBarTitleText": "商店",
-  "enablePullDownRefresh": true,
-  "onReachBottomDistance": 200,
-  "backgroundColor": "#efefef",
-  "backgroundTextStyle": "dark"
-}
