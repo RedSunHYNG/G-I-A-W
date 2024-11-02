@@ -1,0 +1,32 @@
+<view >
+  <view>
+    <view class="d">
+        <image class="avatar" src="{{ avatarUrl }}" style="position: relative; align-content: center; left: 296rpx; top: 4rpx"></image>
+    </view>
+    <view>
+        <view class="a">
+           <view class="b">名字：{{ name }}</view>
+           <view class="b">身份：{{ admin }}</view>
+        </view>
+    </view>
+  </view>
+</view>
+
+<view>
+  <view class="a_button"></view>
+  <navigator open-type="navigate" url="../index/user">
+    <button  class="a_button">修改信息</button>
+  </navigator>
+  <navigator open-type="navigate" url="../mode_byway/mode_byway">
+    <button  class="a_button">我的说说</button>
+  </navigator>
+  <navigator open-type="navigate" url="../mode_coupon/mode_coupon">
+    <button  class="a_button">查看交易</button>
+  </navigator>
+  <navigator open-type="navigate" url="../index/bilibili">
+    <button  class="a_button">查看直播间</button>
+  </navigator>
+  <navigator open-type="navigate" url="../mode_map/mode_map">
+    <button  class="a_button">查看附近原神周边</button>
+  </navigator>
+</view>

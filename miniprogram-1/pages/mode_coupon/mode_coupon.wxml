@@ -1,0 +1,11 @@
+<wxs src="/libs/tools.wxs" module="tools"></wxs>
+<view class="shop-item" wx:for="{{ item }}" wx:key="id">
+  <view class="thumb">
+    <image src="{{ item.image }}"></image>
+  </view>
+  <view class="info">
+    <text class="shop-title">{{ item.name }}</text>
+    <text>价格：{{ item.phone }}</text>
+    <text>简介：{{ item.address }}</text>
+  </view>
+</view>

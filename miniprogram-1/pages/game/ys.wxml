@@ -1,0 +1,4 @@
+<!--pages/game/ys.wxml-->
+<view>
+  <web-view src="https://ys.mihoyo.com/cloud/?utm_source=default#/"></web-view>
+</view>

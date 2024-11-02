@@ -1,0 +1,8 @@
+<!--pages/mode_byway/byway.wxml-->
+<view>
+  <view>
+  <text>输入说说内容</text>
+  <textarea model:value="{{ opinion }}" />
+  </view>
+  <button type="primary" bindtap="submit">提交</button>
+</view>
